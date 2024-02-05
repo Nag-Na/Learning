@@ -1,0 +1,32 @@
+
+<html> 
+  <head>
+    <title><p>{{title}}</p></title>
+  </head>   
+  <body>
+    <div>
+      {% comment %} {%for key , value in mydata.items() %}
+          <div>
+          <p>{{key}} : {{value}}</P>
+          </div>
+      {%endfor%} 
+      {% endcomment %}
+
+      {% for value in mydata.values() %}
+          <div>
+          <p>{{value}}</P>      <!-- {{key}} : undadhu-->
+          </div>
+      {%endfor%}
+      
+{% comment %} data = [123,234,'apple','wefww'] {% endcomment %}
+          {% comment %} 
+          {%for i in mydata %}
+              <div>
+                {{i}}
+              </div>
+          {%endfor%} 
+          {% endcomment %}
+
+    </div>
+  </body>
+</html>
