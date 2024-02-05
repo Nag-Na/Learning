@@ -70,21 +70,21 @@
 # else :
 #   print('not a leap year')
   
-#======================================  not completed 
-num1 : int = int(input('enter nbr: '))
-num2 : int = int(input('enter another nbr: '))
+#======================================  
+# num1 : int = int(input('enter nbr: '))
+# num2 : int = int(input('enter another nbr: '))
 
 
-operation = input('select : additon/substraction/multiplicaton/division : ')
+# operation = input('select : additon/substraction/multiplicaton/division : ')
 
-if operation == 'addition' :
-    print(num1 + num2)
-elif operation == 'substraction' :
-    print(num1 - num2)
-elif operation == 'multiplication' :
-    print(num1 * num2)
-elif operation == 'division ':
-    print(num1 / num2)
+# if operation == 'addition' :
+#     print(num1 + num2)
+# elif operation == 'substraction' :
+#     print(num1 - num2)
+# elif operation == 'multiplication' :
+#     print(num1 * num2)
+# elif operation == 'division ':
+#     print(num1 / num2)
 #===========================================
 # while loop
 
